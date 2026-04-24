@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E3660D"/>
+      <stop offset="100%" stop-color="#01ABA8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <polygon points="-50,0 84,0 128,72 -6,72" fill="#01ABA8"/>
+  <polygon points="-70,36 64,36 108,108 -26,108" fill="#E3660D"/>
+
+  <line x1="72" y1="76" x2="959" y2="76" stroke="#D9D9D9" stroke-width="1"/>
+  <image x="969" y="0" width="299" height="76" xlink:href="logo_primary.png" preserveAspectRatio="xMaxYMid meet"/>
+
+  <text x="640" y="220" text-anchor="middle" fill="#0F373B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="48" font-weight="700">
+    {{TITLE}}
+  </text>
+  <text x="640" y="274" text-anchor="middle" fill="#6F6F6F" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20">
+    {{SUBTITLE}}
+  </text>
+
+  <rect x="520" y="308" width="240" height="4" rx="2" fill="url(#titleLine)"/>
+
+  <text x="640" y="364" text-anchor="middle" fill="#3A3838" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18">
+    <tspan fill="#E3660D" font-weight="700">汇报人</tspan>
+    <tspan dx="14">{{AUTHOR}}</tspan>
+  </text>
+  <text x="640" y="402" text-anchor="middle" fill="#6F6F6F" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16">
+    {{DATE}}
+  </text>
+
+  <line x1="0" y1="442" x2="1280" y2="442" stroke="#0F373B" stroke-width="1" stroke-opacity="0.12"/>
+  <image x="1" y="442" width="1278" height="278" xlink:href="cover_panorama.jpg" preserveAspectRatio="xMidYMid meet"/>
+
+  <text x="76" y="702" fill="#9D9D9D" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12" letter-spacing="1">
+    SOUTHERN UNIVERSITY OF SCIENCE AND TECHNOLOGY
+  </text>
+</svg>

@@ -64,6 +64,11 @@
     "summary": "A vibrant business template for tech company introductions and education solutions",
     "keywords": ["Red-orange business", "Tech enterprise", "Education", "Vibrant"]
   },
+  "sustech": {
+    "label": "SUSTech Brand Template",
+    "summary": "A light academic brand template for SUSTech research reports, academic defenses, and campus briefings",
+    "keywords": ["SUSTech", "University", "Academic", "Research", "Technology"]
+  },
   "中国电建_常规": {
     "label": "PowerChina Standard Template",
     "summary": "A solid brand template for engineering construction and state-owned enterprise reports",

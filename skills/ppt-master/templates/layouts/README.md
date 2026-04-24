@@ -1,4 +1,4 @@
-# Page Layout Template Library (21 Templates)
+# Page Layout Template Library (22 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -33,6 +33,7 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `pixel_retro` | Special | Git/tech introductions, retro gaming themes | Neon colors `#00FF41` `#FF0080` | Pixel art, cyberpunk |
 | `科技蓝商务` | General | Corporate reports, product launches, proposals | Tech Blue `#0078D7` | Tech, business, professional, clean |
 | `smart_red` | General | Tech company profiles, education solutions | Smart Red-Orange `#DE3545` | Modern, vibrant, geometric |
+| `sustech` | Brand | Academic defenses, research reports, campus briefings | SUSTech Teal `#0F373B` + Orange `#E3660D` | Light academic, campus-identity-forward, modern university |
 | `重庆大学` | Scenario | Academic defense, research presentations | CQU Blue `#006BB7` | Academic solidity, mountain-city character |
 ---
 
@@ -49,6 +50,7 @@ Templates mimicking **specific well-known brands/institutions** with their exclu
 | `mckinsey` | McKinsey consulting style, data-driven and structured |
 | `anthropic` | Anthropic AI style, dark tech-forward aesthetic |
 | `china_telecom_template` | China Telecom brand style, red-gray structural header + ribbon footer |
+| `sustech` | SUSTech institutional style, light academic system with campus panorama and restrained brand accents |
 | `中汽研_常规` | CATARC standard style (v1), suitable for certification and evaluation |
 | `中汽研_商务` | CATARC business style (v2), modern tech business, composed and sophisticated |
 | `中汽研_现代` | CATARC modern style (v3 Future), Future Tech style, deep blue + neon cyan |

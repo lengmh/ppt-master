@@ -1,0 +1,45 @@
+{
+  "template_id": "sustech",
+  "source_pptx": "SUSTech PPT template.pptx",
+  "notes": [
+    "PowerPoint COM-based SVG export failed during reference import, so normalization is based on manifest.json, master_layout_refs.json, slide XML inspection, and exported original assets.",
+    "No inline_* derived assets were generated in the partial import workspace."
+  ],
+  "assets": [
+    {
+      "original_asset": "assets/image1.png",
+      "canonical_asset_path": "skills/ppt-master/templates/layouts/sustech/logo_primary.png",
+      "matched_inline_references": [],
+      "role_guess": "brand_logo",
+      "include_in_template_package": true
+    },
+    {
+      "original_asset": "assets/image2.png",
+      "canonical_asset_path": "skills/ppt-master/templates/layouts/sustech/campus_building_photo.png",
+      "matched_inline_references": [],
+      "role_guess": "toc_photo_reference",
+      "include_in_template_package": true
+    },
+    {
+      "original_asset": "assets/image3.jpeg",
+      "canonical_asset_path": "skills/ppt-master/templates/layouts/sustech/cover_panorama.jpg",
+      "matched_inline_references": [],
+      "role_guess": "cover_panorama",
+      "include_in_template_package": true
+    },
+    {
+      "original_asset": "assets/image4.png",
+      "canonical_asset_path": "skills/ppt-master/templates/layouts/sustech/chapter_silhouette.png",
+      "matched_inline_references": [],
+      "role_guess": "chapter_silhouette",
+      "include_in_template_package": true
+    },
+    {
+      "original_asset": "assets/image5.jpeg",
+      "canonical_asset_path": "skills/ppt-master/templates/layouts/sustech/ending_sketch.jpg",
+      "matched_inline_references": [],
+      "role_guess": "ending_background",
+      "include_in_template_package": true
+    }
+  ]
+}

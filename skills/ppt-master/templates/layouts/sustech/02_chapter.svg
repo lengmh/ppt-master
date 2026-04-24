@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <polygon points="-50,0 84,0 128,72 -6,72" fill="#01ABA8"/>
+  <polygon points="-70,36 64,36 108,108 -26,108" fill="#E3660D"/>
+
+  <line x1="72" y1="76" x2="959" y2="76" stroke="#D9D9D9" stroke-width="1"/>
+  <image x="969" y="0" width="299" height="76" xlink:href="logo_primary.png" preserveAspectRatio="xMaxYMid meet"/>
+
+  <text x="106" y="268" fill="#E3660D" fill-opacity="0.16" font-family="Arial, Microsoft YaHei, sans-serif" font-size="164" font-weight="700">
+    {{CHAPTER_NUM}}
+  </text>
+
+  <rect x="236" y="196" width="8" height="110" rx="4" fill="#01ABA8"/>
+  <text x="274" y="244" fill="#0F373B" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="42" font-weight="700">
+    {{CHAPTER_TITLE}}
+  </text>
+  <rect x="274" y="272" width="250" height="4" rx="2" fill="#E3660D"/>
+  <text x="274" y="314" fill="#6F6F6F" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" letter-spacing="1">
+    SOUTHERN UNIVERSITY OF SCIENCE AND TECHNOLOGY
+  </text>
+
+  <line x1="72" y1="388" x2="1208" y2="388" stroke="#D9D9D9" stroke-width="1"/>
+  <image x="0" y="388" width="1280" height="332" xlink:href="chapter_silhouette.png" preserveAspectRatio="xMidYMax meet"/>
+
+  <text x="76" y="706" fill="#9D9D9D" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12" letter-spacing="1">
+    SUSTECH BRAND TEMPLATE
+  </text>
+</svg>

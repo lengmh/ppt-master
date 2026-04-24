@@ -1,0 +1,193 @@
+{
+  "source": {
+    "pptx": "D:\\DesktopMove\\个人\\Agent\\ppt-master\\examples\\SUSTech PPT template.pptx",
+    "name": "SUSTech PPT template.pptx"
+  },
+  "slideSize": {
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "width_px": 1280,
+    "height_px": 720
+  },
+  "theme": {
+    "colors": {
+      "dk1": "#3A3838",
+      "lt1": "#F2F2F2",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fonts": {
+      "majorLatin": "微软雅黑",
+      "minorLatin": "微软雅黑",
+      "minorEastAsia": "微软雅黑"
+    }
+  },
+  "assets": {
+    "exportDir": "assets",
+    "commonAssets": [],
+    "allAssets": [
+      "image1.png",
+      "image2.png",
+      "image3.jpeg",
+      "image4.png",
+      "image5.jpeg"
+    ]
+  },
+  "referenceStructures": {
+    "json": "master_layout_refs.json",
+    "analysis": "master_layout_analysis.md",
+    "layoutCount": 3,
+    "masterCount": 1
+  },
+  "pageTypeCandidates": {
+    "chapter_candidate": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cover_candidate": [
+      1
+    ],
+    "ending_candidate": [
+      8
+    ]
+  },
+  "slides": [
+    {
+      "index": 1,
+      "name": "slide1.xml",
+      "slidePath": "ppt/slides/slide1.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout5.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image3.jpeg"
+      ],
+      "textSamples": [
+        "XXXXX",
+        "汇报人",
+        "：",
+        "2020-XX -XX"
+      ],
+      "textCount": 4,
+      "shapeCount": 6,
+      "pageType": "cover_candidate"
+    },
+    {
+      "index": 2,
+      "name": "slide2.xml",
+      "slidePath": "ppt/slides/slide2.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout2.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 2,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 3,
+      "name": "slide3.xml",
+      "slidePath": "ppt/slides/slide3.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout5.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 2,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 4,
+      "name": "slide4.xml",
+      "slidePath": "ppt/slides/slide4.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout2.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 2,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 5,
+      "name": "slide5.xml",
+      "slidePath": "ppt/slides/slide5.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout2.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 2,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 6,
+      "name": "slide6.xml",
+      "slidePath": "ppt/slides/slide6.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout2.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 2,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 7,
+      "name": "slide7.xml",
+      "slidePath": "ppt/slides/slide7.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout5.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image4.png"
+      ],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 3,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 8,
+      "name": "slide8.xml",
+      "slidePath": "ppt/slides/slide8.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout6.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image5.jpeg"
+      ],
+      "textSamples": [
+        "感谢聆听"
+      ],
+      "textCount": 1,
+      "shapeCount": 4,
+      "pageType": "ending_candidate"
+    }
+  ]
+}
