@@ -32,7 +32,7 @@ description: >
 >
 > - **Response language**: Always match the language of the user's input and provided source materials. For example, if the user asks in Chinese, respond in Chinese; if the source material is in English, respond in English.
 > - **Explicit override**: If the user explicitly requests a specific language (e.g., "请用英文回答" or "Reply in Chinese"), use that language instead.
-> - **Template format**: The `design_spec.md` file MUST always follow its original English template structure (section headings, field names), regardless of the conversation language. Content values within the template may be in the user's language.
+> - **Template format**: The `design_spec.md` file MUST always follow its template structure. By default, use the English reference template. **When working in Chinese, prefer `templates/design_spec_reference_CN.md` and `templates/spec_lock_reference_CN.md` as the reference skeletons.** Keep the section structure fully aligned with the reference template you chose.
 
 > [!IMPORTANT]
 > ## 🔌 Compatibility With Generic Coding Skills
@@ -167,9 +167,9 @@ First, read the role definition:
 Read references/strategist.md
 ```
 
-> ⚠️ **Mandatory gate in `strategist.md`**: Before writing `design_spec.md`, Strategist MUST `read_file templates/design_spec_reference.md` and produce the spec following its full I–XI section structure. See `strategist.md` Section 1 for the explicit gate rule.
+> ⚠️ **Mandatory gate in `strategist.md`**: Before writing `design_spec.md`, Strategist MUST `read_file templates/design_spec_reference.md` and produce the spec following its full I–XI section structure. **When the working language is Chinese, prefer `templates/design_spec_reference_CN.md` and use `templates/spec_lock_reference_CN.md` as the matching execution-lock reference.** See `strategist.md` Section 1 for the explicit gate rule.
 
-**Must complete the Eight Confirmations** (full template structure in `templates/design_spec_reference.md`):
+**Must complete the Eight Confirmations** (full template structure in `templates/design_spec_reference.md`; for Chinese workflows, prefer `templates/design_spec_reference_CN.md`):
 
 ⛔ **BLOCKING**: The Eight Confirmations MUST be presented to the user as a bundled set of recommendations, and you MUST **wait for the user to confirm or modify** before outputting the Design Specification & Content Outline. This is the single core confirmation point in the workflow. Once confirmed, all subsequent script execution and slide generation should proceed fully automatically.
 
@@ -191,7 +191,7 @@ python3 ${SKILL_DIR}/scripts/analyze_images.py <project_path>/images
 
 **Output**:
 - `<project_path>/design_spec.md` — human-readable design narrative
-- `<project_path>/spec_lock.md` — machine-readable execution contract (distilled from the decisions in design_spec.md; Executor re-reads this before every page). See `templates/spec_lock_reference.md` for the skeleton.
+- `<project_path>/spec_lock.md` — machine-readable execution contract (distilled from the decisions in design_spec.md; Executor re-reads this before every page). See `templates/spec_lock_reference.md` for the skeleton; for Chinese workflows, prefer `templates/spec_lock_reference_CN.md`.
 
 **✅ Checkpoint — Phase deliverables complete, auto-proceed to next step**:
 ```markdown

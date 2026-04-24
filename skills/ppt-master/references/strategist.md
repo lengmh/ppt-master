@@ -42,9 +42,12 @@ As a top-tier AI presentation strategist, receive source documents, perform cont
 
 ## 1. Eight Confirmations Process
 
-🚧 **GATE — Mandatory read before proceeding**: Before starting analysis or writing any part of the Design Specification, you **MUST** `read_file` the reference template:
+🚧 **GATE — Mandatory read before proceeding**: Before starting analysis or writing any part of the Design Specification, you **MUST** `read_file` the reference template. By default, use the English reference template; **when the working language is Chinese, prefer the Chinese reference templates and keep the section structure aligned with them**:
 ```
 read_file templates/design_spec_reference.md
+# Chinese workflow:
+# read_file templates/design_spec_reference_CN.md
+# and use templates/spec_lock_reference_CN.md as the matching execution-lock reference
 ```
 The design_spec.md output **MUST** follow this template's structure exactly (Sections I through XI). After writing, perform a section-by-section self-check: I Project Information ✓ → II Canvas Spec ✓ → III Visual Theme ✓ → IV Typography ✓ → V Layout Principles ✓ → VI Icon Usage ✓ → VII Visualization Reference List ✓ → VIII Image Resource List ✓ → IX Content Outline ✓ → X Speaker Notes Requirements ✓ → XI Technical Constraints Reminder ✓. Any missing section must be completed before outputting the file.
 
@@ -444,11 +447,12 @@ The Strategist should make professional judgments on the template basis generate
 | XI. Technical Constraints Reminder | SVG generation rules, PPT compatibility rules |
 
 **Generation steps**:
-1. Read reference template: `templates/design_spec_reference.md`
+
+1. Read reference template: `templates/design_spec_reference.md` (for Chinese workflows, prefer `templates/design_spec_reference_CN.md`)
 2. Generate complete spec from scratch based on analysis
 3. Save to: `projects/<project_name>.../design_spec.md`
-4. **Generate execution lock**: read `templates/spec_lock_reference.md` and produce `projects/<project_name>.../spec_lock.md` — a distilled, machine-readable short form of the color / typography / icon / image / **page_rhythm** decisions above. This file is what the Executor re-reads before every page (see [executor-base.md](executor-base.md) §2.1). The values in `spec_lock.md` MUST exactly match the decisions recorded in `design_spec.md`; if they ever diverge, `spec_lock.md` wins and `design_spec.md` should be treated as historical narrative.
-   - **page_rhythm is mandatory**: Based on the page list in §IX Content Outline, assign each page one of `anchor` / `dense` / `breathing` (see `spec_lock_reference.md` for the full vocabulary). This is what breaks the uniform "every page is a card grid" feel — without it the Executor defaults all pages to `dense`.
+4. **Generate execution lock**: read `templates/spec_lock_reference.md` (for Chinese workflows, prefer `templates/spec_lock_reference_CN.md`) and produce `projects/<project_name>.../spec_lock.md` — a distilled, machine-readable short form of the color / typography / icon / image / **page_rhythm** decisions above. This file is what the Executor re-reads before every page (see [executor-base.md](executor-base.md) §2.1). The values in `spec_lock.md` MUST exactly match the decisions recorded in `design_spec.md`; if they ever diverge, `spec_lock.md` wins and `design_spec.md` should be treated as historical narrative.
+   - **page_rhythm is mandatory**: Based on the page list in §IX Content Outline, assign each page one of `anchor` / `dense` / `breathing` (see `spec_lock_reference.md` for the full vocabulary; for Chinese workflows, prefer `spec_lock_reference_CN.md`). This is what breaks the uniform "every page is a card grid" feel — without it the Executor defaults all pages to `dense`.
    - **Rhythm follows narrative, not quota**: `breathing` pages should appear at natural narrative pauses — chapter transitions, a single argument worth standalone emphasis (hero quote / big number / feature image), an SCQA "Question" bridge, or a deliberate stop after a chain of dense argumentation. If the content is genuinely a high-density data briefing or rigorous consulting analysis, the deck may legitimately be nearly all `dense` — **do NOT invent filler pages** ("Thank you", "Chapter divider with no content") to pad the rhythm, because filler is itself a hallmark AI-generated pattern. Validation test: every `breathing` page must answer "what independent thing is this page saying?" — if it can't, it shouldn't exist.
 
 ---
