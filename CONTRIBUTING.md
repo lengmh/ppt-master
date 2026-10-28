@@ -30,6 +30,8 @@ pip install -r requirements.txt
 
 ## Before You Open a PR
 
+Keep public examples and documentation free of personal paths, private source titles, and private task or conversation logs. Use repository-relative filenames and reusable design rationale; retain technical limits and verification evidence. Check document metadata before adding binary examples, and keep unpacked sources consistent with their originals.
+
 PPT Master is solo-maintained with limited review bandwidth. To keep things healthy for everyone:
 
 - **Small fixes** (typos, clear bugs, doc corrections) — open a PR directly
